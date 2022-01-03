@@ -108,3 +108,35 @@ main h1 {
 * Media query a partir de aquí
 * @media...
 **/
+
+@media (max-width: 48rem){
+  main h1{
+    font-size: 2rem;
+  }
+
+  .menu-btn{
+    display: none;
+  }
+
+   nav ul li{
+    display:none;
+     }
+    #latest-products ul{
+     
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .food-item-content  h2{
+      color: darkblue;
+    }
+    
+   }
+   
+   @media (min-width: 49rem){
+    .image:hover{
+      transform: scale(1.4);
+    }
+
+   }
+  
+
